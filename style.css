@@ -106,6 +106,7 @@ nav img {
     padding: 15px 40px;
     font-size: 20px;
     border-radius: 4px;
+    
 }
 .main input {
     padding: 10px 150px 30px 10px;
@@ -121,4 +122,43 @@ nav img {
     align-items: center;
     justify-content: center;
     gap: 8px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    padding: 130px 0px;
+    color: white;
+    align-items: center;
+}
+.sec-img {
+    position: relative;
+}
+.sec-img img {
+    width: 36vw;
+    position: relative;
+    z-index: 10;
+    top: 30px;
+}
+.sec-img video {
+    width: 31vw;
+    position: absolute;
+    top: 110px;
+    right: 2px;
+}
+.first > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.first > div :nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+.first > div :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
 }
