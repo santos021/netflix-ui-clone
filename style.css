@@ -155,10 +155,38 @@ nav img {
 }
 .first > div :nth-child(1) {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 700;
     font-family: 'Roboto', sans-serif;
 }
 .first > div :nth-child(2) {
     font-size: 24px;
     font-weight: 400;
+}
+
+.faqs {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.faqs h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #414141;
+    padding: 20px 65px;
+    margin: 34px auto;
+    max-width: 60vw;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+
+.faq-box:hover {
+    transition: all;
+    background-color: rgb(37, 35, 35);
 }
